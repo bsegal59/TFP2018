@@ -135,7 +135,6 @@ ES5 and ES6 are different versions of Javascript
 Frameworks and complementary langauges help to 
 1. Insert these languages into the webpage
 2. Help facilitate writing these languages 
-3. 
 
 ---
 Further Resources
