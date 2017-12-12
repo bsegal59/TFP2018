@@ -45,7 +45,7 @@ h1 {
 **Common CSS Selectors**
 * .class : selects all elements with class="***"
 * #id : Selects the element with id ="****"
-* * : Select all elements
+* "*" : Select all elements
 * element : selects all x elements
 * element,element : selects all x elements *and* all y elements
 * element element : selects all y elements *within* all x elements
