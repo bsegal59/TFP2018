@@ -142,11 +142,12 @@ Further Resources
 
 
 HTML Links
-1. [w3schools.com](w3schools)
+1. [w3schools](www.w3schools.com)
 
-CSS Links
-1. [CanIusethis.com](Can I use this?)
+CSS Links  
+1. [CanIuseThis?](www.CanIusethis.com)
 
 JS Links
-1. [https://github.com/airbnb/javascript](AirBNB Style)
+1. [Air Bnb JS StyleSheet](www.github.com/airbnb/javascript)
+
 
