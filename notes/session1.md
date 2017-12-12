@@ -85,7 +85,7 @@ Working out from the Center the Box is defined by the following:
 3. Border: The optionally visible line around the padding
 4. Margin: Spacing from the outside of the border 
  
-The direction that styles are applied on a page are TOP-RIGHT-BOTTOM-LEFT
+The direction that styles are applied on a page are TOP-RIGHT-BOTTOM-LEFT  
 `CSS
 div{
     margin-top:1px;
@@ -93,26 +93,26 @@ div{
     margin-bottom: 3ix;
     margin-left: 4px;
 }`
-Is the same as 
+Is the same as   
 `CSS
 div {margin: 1px 2px 3px 4px}`
 
-**Media Query** 
+**Media Query**   
 The @Media rule is used to define different style rules for differnt media styles and devices
 
 
-**SASS**
+**SASS**  
 * CSS Extension language and preprocessor
 * Variables nesting imports
 * Mixins and Inheritance
 
 ## JS
-Represents your *Behavior* 
+Represents your *Behavior*.   
 Control sections of the page using event listeners in a single threaded fashion in the browser
 
-**JavaScripts are Object-Based**
+**JavaScript is Object-Based**  
 
-All Values are objects 
+All Values are objects   
 * Dates
 * Objects
 * Arrays
