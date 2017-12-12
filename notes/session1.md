@@ -10,7 +10,7 @@ Defines the content of your page on the fully loaded webpage.
 
 **The bare bones HTML Document**
 
-`HTML
+```HTML
  <!DOCTYPE HTML>
  <HTML>
     <head>
@@ -18,7 +18,7 @@ Defines the content of your page on the fully loaded webpage.
     <body>
     </body>
  </HTML>
-`
+```
 **Common Divs in Modern HTML**
 * header
     * nav
@@ -34,12 +34,12 @@ Defines the content of your page on the fully loaded webpage.
 ## CSS
 Represents your *style*
 Cascading Style Sheets  
-`CSS
+```CSS
 h1 {
     color:blue;
     font-size:12px;
 }
-`
+```
 ***Brevity is the key to good CSS***
 
 **Common CSS Selectors**
@@ -66,15 +66,17 @@ The hierarchy is as follows
 
 **"Psuedo Tags"**
 used to describe a special state of an element
-`CSS
+```CSS
 p:hover{
 color:#FF00FF;
-}`
+}
+```
 can also be used to reference a specific element
-`CSS
+```CSS
 p::after{
     color:#ff0000;
-}`
+}
+```
 
 **The Box Model**
 Working out from the Center the Box is defined by the following: 
