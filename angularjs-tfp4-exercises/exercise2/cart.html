@@ -1,0 +1,14 @@
+<h1>Your Shopping Cart</h1>
+<div class='cart' >
+    <!-- TODO: Use Angular to read in each object from the CartController.items array -->
+    <div ng-repeat="item in CartController.items">
+      <span>{{item.title}}</span>
+      <input ng-model="item.quantity"> <!-- TODO: Set up two-way data binding with item's quantity variable -->
+      <span>{{item.price|currency}}</span>
+      <span>{{item.price*item.quantity|currency}}<!-- TODO: show value calculated as item's price * item's quantity (with currency filter)--></span>
+      
+      <!-- TODO: on button click, call controller's remove function, with current $index as parameter-->
+      <button ng-click="CartController.remove($index)">Remove</button>
+  </div>
+      
+</div>

@@ -1,0 +1,11 @@
+{
+  "name": "promise-shop",
+  "version": "1.0.0",
+  "description": "This is a repository for the promise workshop ",
+  "main": "index.js",
+  "scripts": {
+    "test": "promise-it-wont-hurt"
+  },
+  "author": "Brandon Segal",
+  "license": "UNLICENSED"
+}

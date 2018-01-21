@@ -1,0 +1,14 @@
+<div>
+          <input type="text" ng-model='search.name' />
+          <table ng-repeat="hero in AvengersCtrl.cast">
+            <!-- TODO: Use Angular to read in each object from the AvengersCtrl.avengers.cast array -->
+            <!-- TODO: Also filter on search, order by name, and limit displayed results to 7 -->
+            <tr>
+                <td>{{hero.character|lowercase}}</td>
+                <td>{{hero.name|uppercase}}</td>
+            </tr>
+          </table>
+
+        </div>
+
+    </div>
