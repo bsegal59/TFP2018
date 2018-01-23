@@ -34,5 +34,25 @@ Ionic is a software development kit(SDK) built on AngularJS and Cordova to build
 * Javascript Extensions 
     * Backdrop modals, side menues
 
-[http://ionicframework.com/docs/v1/components](ionic Framework)
+[http://ionicframework.com/docs/v1/components](Ionic Framework)
+
+**How to get Started** 
+```bash
+$npm install -g ionic
+$npm ionic start myproject [template]
+
+```  
+There are 3 templates you can start from: 
+1. blank
+2. Tabs
+3. Sidemenu
+
+Build process
+
+1. **Build your app:** ionic build <Platform>
+2. **Simulate your app** ionic emulate <Platform>
+3. **Run your app on a device:** ionic run <Platform>
+4. **Simulate in the browser:** Ionic serve -l
+
+
 
