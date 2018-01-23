@@ -8,7 +8,7 @@ A Google Built Web Framework to give structure to Web Applications
 * MVC-focused (Model View Controller)
 
 **Angular**    
-* Version:  2.00 
+* Version:  2.00 n
 * Programming Language: TypeScript (ES6 with strong typing)
 * Component Based
 

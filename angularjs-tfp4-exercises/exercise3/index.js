@@ -23,14 +23,13 @@ angular
     .service('Avengers',Avengers);
 
 function Avengers ($http){
-    this.cast = function getData(){
-        $http.get('./data.json')
-            .then(function(response){
-                return this.cast;
-            });
-    } 
+    const self = this;
+    $http.get('/data.json')
+    .then(function(response){
+        this.cast = response.data ;
+    })
 }
-function AvengersController(Avengers){
-    Avengers 
-        .getData()
+function AvengersController(){
+    this.avengers = Avengers;
+
 }
