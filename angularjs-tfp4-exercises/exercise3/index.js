@@ -26,7 +26,7 @@ function Avengers ($http){
     const self = this;
     $http.get('/data.json')
     .then(function(response){
-        this.cast = response.data ;
+        self.cast = response.data ;
     })
 }
 function AvengersController(){

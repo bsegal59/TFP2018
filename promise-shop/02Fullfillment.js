@@ -1,7 +1,3 @@
 'use strict';
-
-var promise = new Promise(function(fulfill,reject){
-    setTimeout(()=>console.log('FULFILLED!'),300)
-})
-promise.then(fulfill);
-console.log(promise);
+var promise = new Promise.resolve(setTimeout("FULFILLED"),300);
+console.log(promise)
