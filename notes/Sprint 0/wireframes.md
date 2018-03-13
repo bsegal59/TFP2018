@@ -40,7 +40,30 @@
     6. Verification
         * Email Verification to users 
         * Emailed code will be used  to verify identity 
+* Logging In
+    1. Log In
+        * Email and Password Fields
+        * Login button disabled until both are filled
+    2. Log In Error Email
+        * User enters invalid email
+        * "email is not registered" 
+        * Create txt above create account button saying " Would you like to create an account?" 
+    3. Log In Error Password
+        * User enters a valid email but not the associated password
+    3. Forgot Password
+        * Email field
+        * Validates on blur to find if the email is an email
+    4. Retrieve Password 
+        * Validation that the password email had been sent 
+    5. Retrieve Password Error 
+        * User puts in invalid email in the field
+        * Indication put under email field
+        * Button to create account shown 
+        * Create the 
 
+**Password Reset** 
+* Want the user to follow a unique link to reset password screen (Yet to be made) 
+* 
 
 
 
